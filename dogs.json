@@ -1,0 +1,15 @@
+ [
+    {
+        "id" : 1,
+        "name" : "Ted",
+        "race" : "Bulldog"
+    },{
+        "id" : 2,
+        "name" : "Schrimpy",
+        "race" : "Akita"
+    },{
+        "id" : 3,
+        "name" : "Meggie",
+        "race" : "Collie"
+    }
+] 

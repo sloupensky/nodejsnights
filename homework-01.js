@@ -8,6 +8,7 @@ async function run() {
     try {
         const result = await requestPromise(`${BASE_URL}/people/1`)
         const resultObj = JSON.parse(result)
+        console.log(resultObj)
 
         for(vehicleUrl of resultObj.vehicles) {
             const vehicle = await requestPromise(vehicleUrl)
